@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- Declara el tipo de documento. indica el navegador que usara HTML5 -->
+<html lang="es">
+<!-- Elemento principal del documento HTML. lang="es" indica que el contenido esta en "español" -->
+
+<head> <!-- Sección de configuracion del documento -->
+    <meta charset="UtF-8">
+    <!-- Define la codificacion de caracteres. UTF-8 Permite usar correctamente tildes, ñ, simbolos, etc. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que el sitio sea responsive. Permite que el diseño se adapte completamente a celulares y tablets. -->
+    <title>Practicando HTMl - img y video</title>
+    <!-- Titulo del sitio web -->
+    <meta name="author" content="Xavier Olmos">
+    <!-- Indica quien creo el sitio web -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!--Conexión con hoja CSS de estilos-->
+</head>
+
+<body>
+    <header> <!--Encabezado del documento-->
+        <h1>Sitio multimedia personal</h1>
+    </header>
+    <hr> <!--crea una linea de devision-->
+    <main>
+        <h2>Mis datos:</h2>
+        <p>Nombre: Xavier Olmos<br><!--br es un salto de linea-->
+            Curso:3°C
+        </p>
+        <hr>
+        <h2>Galeria multimedia</h2>
+        <P>Imagén de ejemplo</P>
+        <img src="static/images/imagen1.png" alt="primera imagen" width="300">
+        <img src="static/images/imagen2.png" alt="segunda imagen" width="300">
+        <img src="static/images/imagen3.png" alt="tercera imagen" width="300">
+        <hr>
+        <h2>Videos</h2>
+        <video width="300" controls>
+            <source src="static/videos/Limbus Company Canto 7 Final Cutscene [4k_60FPS_MaxBitrate] - Cursed Pie (1080p, h264).mp4" type="video/mp4">
+        <hr>
+        </video>   
+            <video width="300" controls>
+            <source src="static/videos/【LIMBUS COMPANY】HERO MV【2025月亮计划新春会单品】 - 麦田六神 (1080p, h264).mp4" type="video/mp4">
+    </main>
+    <footer>
+        <p style="text-align:center">Todos los derechos reservados
+            -<a href="https://limbuscompany.wiki.gg/">Más información</a> <!-- etiqueta <a> para vinculos -->
+        </p>
+    </footer>
+</body>
+
+</html>
